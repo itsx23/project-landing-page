@@ -1,0 +1,51 @@
+body {
+    height: 100vh;
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: column;
+
+    background-color: #75a4e2;
+    font-family: Roboto, sans-serif;
+}
+
+.top-container {
+    background-color: grey;
+    border: 2px solid red;
+    min-height: 400px;
+}
+
+.header {
+    background-color: #1F2937;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 16px;
+}
+
+.header-logo {
+    font-size: 24px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+ul {
+    /* this removes the dots on the list items*/
+    list-style-type: none;
+
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+
+}
+
+a {
+    /* this removes the line under our links */
+    text-decoration: none;
+    font-size: 18px;
+    color: #c7c8c9;
+
+}
