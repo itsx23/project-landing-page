@@ -202,11 +202,12 @@ a {
 
 .sign-up {
     display: flex;
-    flex-shrink: 0;
-    justify-content: space-between;
+
+
+    justify-content: center;
     align-items: center;
     margin: 5% auto;
-    
+
 
     background: #3882F6;
     color: #F9FAF8;
@@ -215,9 +216,9 @@ a {
 
 }
 
- .sign-up-text {
-  margin-right: 50px;
-} 
+.sign-up-text {
+    margin-right: 50px;
+}
 
 .sign-up-title {
     font-size: 16px;
