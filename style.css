@@ -129,7 +129,7 @@ a {
 
 .information-container {
     padding-top: 3%;
-    padding-bottom: 10%;
+    padding-bottom: 8%;
     text-align: center;
 }
 
@@ -169,7 +169,15 @@ a {
     color: #1F2937;
 }
 
+.quote-container {
+    display: flex;
+    justify-content: center;
 
+    padding: 5% 32px;
+    background-color: #E5E7EB;
+
+
+}
 
 
 
